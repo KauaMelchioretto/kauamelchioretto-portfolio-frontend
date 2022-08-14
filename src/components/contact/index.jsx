@@ -58,7 +58,7 @@ export const Contact = () => {
     if (validation()) {
       let result = null;
       setButtonText("Sending...");
-      await httpAgent.post("http://localhost:3001/contact", {
+      await httpAgent.post("/contact", {
           name: `${formDetails.firstName} ${formDetails.lastName}`,
           email: formDetails.email,
           message: formDetails.message,
