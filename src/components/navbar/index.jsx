@@ -3,6 +3,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from "../../assets/img/logo.svg";
 import linkedinIcon from "../../assets/img/nav-icon1.svg";
 import gitHubIcon from "../../assets/img/github.png";
+import wppIcon from "../../assets/img/whatsapp-messenger.png"
 import instagramIcon from "../../assets/img/nav-icon3.svg";
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -78,6 +79,9 @@ export const NavBar = () => {
                 </a>
                 <a href="https://www.instagram.com/kaua_cmt/" target="_blank">
                   <img src={instagramIcon} alt="" />
+                </a>
+                <a href='https://api.whatsapp.com/send?phone=5547996191929&text=You%20are%20contacting%20Kau%C3%A3%20Melchioretto%20%3AD' target="_blank">
+                  <img src={wppIcon} alt="" />
                 </a>
               </div>
               <HashLink to="#connect">
