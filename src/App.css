@@ -92,6 +92,9 @@ p.danger {
   color: red;
 }
 
+.input-warning {
+  margin-right: 60%;
+}
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;

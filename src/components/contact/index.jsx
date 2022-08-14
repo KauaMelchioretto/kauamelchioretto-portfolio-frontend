@@ -154,7 +154,7 @@ export const Contact = () => {
                     <Col>
                       <p
                         className={
-                          status.success === false ? "denger" : "success"
+                          status.success === false ? "danger" : "success"
                         }
                       >
                         {status.message}
