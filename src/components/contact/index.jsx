@@ -14,6 +14,10 @@ export const Contact = () => {
   const [buttonText, setButtonText] = useState("Send");
   const [status, setStatus] = useState({});
 
+  var httpAgent = axios.create({
+    baseURL: process.env.REACT_APP_API_URL,
+  });
+
   const changeValues = (value) => {
     setFormDetails((prevValue) => ({
       ...prevValue,
@@ -54,7 +58,7 @@ export const Contact = () => {
     if (validation()) {
       let result = null;
       setButtonText("Sending...");
-      await axios.post("http://localhost:3001/contact", {
+      await httpAgent.post("http://localhost:3001/contact", {
           name: `${formDetails.firstName} ${formDetails.lastName}`,
           email: formDetails.email,
           message: formDetails.message,
