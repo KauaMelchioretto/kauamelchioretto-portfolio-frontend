@@ -112,7 +112,7 @@ export const Banner = () => {
               )}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={6} xl={4}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
