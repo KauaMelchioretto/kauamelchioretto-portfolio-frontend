@@ -14,10 +14,10 @@ export const Banner = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const toRotate = [
-    "Kauã Melchioretto",
-    "From Brazil",
-    "Developer",
-    "Looking for the Full Stack",
+    "Hi i'm Kauã Melchioretto",
+    "I'm from Brazil",
+    "I'm Developer",
+    "And i'm looking for the Full Stack",
   ];
   const period = 2000;
 
@@ -65,7 +65,7 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="align-items-center">
+        <Row className="align-items-center" id="row">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
@@ -76,11 +76,11 @@ export const Banner = () => {
                 >
                   <span className="tagline">Wecolme to my Portfolio</span>
                   <h1>
-                    {`Hi i'm `}
+                    {``}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Kauã Melchioretto","From Brazil", "Developer", "Looking for the Full Stack", ]'
+                      data-rotate='[ "Hi i am Kauã Melchioretto","I am from Brazil", "I am Developer", "And i am looking for the Full Stack", ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>

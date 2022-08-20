@@ -1,5 +1,5 @@
 import { Container, Col, Row } from "react-bootstrap";
-import logo from "../../assets/img/logo.svg";
+import logo from "../../assets/img/personal-logo.webp";
 import linkedinIcon from "../../assets/img/nav-icon1.svg";
 import gitHubIcon from "../../assets/img/github.png";
 import wppIcon from "../../assets/img/whatsapp-messenger.png"
@@ -11,7 +11,7 @@ export const Footer = () => {
             <Container>
                 <Row className="align-item-center">
                     <Col id="footer-items" sm={6}>
-                        <img src={logo} alt="Logo" />
+                        <p>The time never stops!!!</p>
                     </Col>
                     <Col id="footer-items" sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
