@@ -8,8 +8,8 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Services disclosure on Web",
-      description: "WebHomeService is a personal project created to disclosure and search installments of home services. ",
+      title: "Services disclosure on Web (OFFLINE)",
+      description: "WebHomeService is a personal project created to disclosure and search installments of home services. OFFLINE :( No ENVIRONMENT TO FREE DEPLOY",
       imgUrl: projImg1,
       projectUrl:"https://webhomeservice.herokuapp.com/inicio",
     },
@@ -23,7 +23,7 @@ export const Projects = () => {
       title: "Neflix Clone",
       description: "A Netlix clone using ReactJs ",
       imgUrl: projImg3,
-      projectUrl:"https://github.com/KauaMelchioretto/Netflix-Clone-ReactJs",
+      projectUrl:"https://kauamelchioretto-netflix-clone-react.onrender.com/",
     },
   ];
   
