@@ -86,12 +86,9 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Hi, my name is Kauã Melchioreto i'm 18 years old and i'm
-                    graduated in the technical course in informatics integrated
-                    to high school at Instituto Federal de Santa Catarina -
-                    Campus Gaspar. I have a great passion for the area of
-                    programming and I am increasingly in search of knowledge.
-                    The sky is the only limit here.
+                  Hi, my name is Kauã and I graduated from a technical course in informatics which I took at the Federal Institute of Science and Technology Campus Gaspar (IFSC), I am a developer, a good problem solver and I have a great passion for programming and technology seeking more and more knowledge, willing to any challenge.
+                  <br></br>
+The sky is the only limit here!
                   </p>
 
                   <Nav.Link
