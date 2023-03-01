@@ -3,10 +3,17 @@ import { ProjectCard } from "../cards/projectscard/index";
 import projImg1 from "../../assets/img/web-service-disclosure.png";
 import projImg2 from "../../assets/img/data-analytics.jpg";
 import projImg3 from "../../assets/img/netflix.png";
+import voidersLogo from "../../assets/img/VoiderClub_logo.svg";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Voiders Club",
+      description: "Voiders Club is a team project focused in NFT market.",
+      imgUrl: voidersLogo,
+      projectUrl: "https://www.voiders.club/"
+    },
     {
       title: "Services disclosure on Web (OFFLINE)",
       description: "WebHomeService is a personal project created to disclosure and search installments of home services. OFFLINE :( No ENVIRONMENT TO FREE DEPLOY",
