@@ -15,10 +15,10 @@ export const Projects = () => {
       projectUrl: "https://www.voiders.club/"
     },
     {
-      title: "Services disclosure on Web (OFFLINE)",
-      description: "WebHomeService is a personal project created to disclosure and search installments of home services. OFFLINE :( No ENVIRONMENT TO FREE DEPLOY",
+      title: "Services disclosure on Web",
+      description: "WebHomeService is a personal project created to disclosure and search installments of home services.",
       imgUrl: projImg1,
-      projectUrl:"https://webhomeservice.herokuapp.com/inicio",
+      projectUrl:"https://homeservice-1vyv.onrender.com/",
     },
     {
       title: "Data analytics",
