@@ -16,9 +16,9 @@ export const Projects = () => {
     },
     {
       title: "Services disclosure on Web",
-      description: "WebHomeService is a personal project created to disclosure and search installments of home services.",
+      description: "WebHomeService is a personal project created to disclosure and search installments of home services. Database connection inconsistency (Will be fixed soon!) :)",
       imgUrl: projImg1,
-      projectUrl:"https://homeservice-1vyv.onrender.com/",
+      projectUrl:"https://homeservice-ute7.onrender.com",
     },
     {
       title: "Data analytics",
